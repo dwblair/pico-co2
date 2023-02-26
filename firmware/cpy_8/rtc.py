@@ -9,9 +9,9 @@ rtc = adafruit_pcf8523.PCF8523(myI2C)
 
 days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 
-if False:   # change to True if you want to write the time!
+if True:   # change to True if you want to write the time!
     #                     year, mon, date, hour, min, sec, wday, yday, isdst
-    t = time.struct_time((2017,  10,   29,   15,  14,  15,    0,   -1,    -1))
+    t = time.struct_time((2023,  2,   24,   22,  46,  15,    0,   -1,    -1))
     # you must set year, mon, date, hour, min, sec and weekday
     # yearday is not supported, isdst can be set but we don't do anything with it at this time
     
