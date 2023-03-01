@@ -1,7 +1,0 @@
-# Comments are supported
-CIRCUITPY_WIFI_SSID="Fios-7S5yS_EXT"
-CIRCUITPY_WIFI_PASSWORD="whose44gel62has"
-CIRCUITPY_WEB_API_PORT=80
-CIRCUITPY_WEB_PASSWORD="obvious"
-test_variable="this is a test"
-thumbs_up="\U0001f44d"
